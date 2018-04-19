@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4525E50D2088EED600145FF2 /* NSString+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 4525E50B2088EED600145FF2 /* NSString+Extended.m */; };
-		4525E50E2088EED600145FF2 /* NSString+StringSizeWithFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4525E50C2088EED600145FF2 /* NSString+StringSizeWithFont.m */; };
+		4525E5182088F54D00145FF2 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 4525E5122088F54D00145FF2 /* .gitkeep */; };
+		4525E5192088F54D00145FF2 /* NSString+StringSizeWithFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4525E5142088F54D00145FF2 /* NSString+StringSizeWithFont.m */; };
+		4525E51A2088F54D00145FF2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4525E5162088F54D00145FF2 /* ReplaceMe.m */; };
+		4525E51B2088F54D00145FF2 /* NSString+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = 4525E5172088F54D00145FF2 /* NSString+Extended.m */; };
 		4AE12BF7F8977AED83AD9A26 /* Pods_HRY_UtilDemo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551472E5590E6506F699729 /* Pods_HRY_UtilDemo_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -42,10 +44,12 @@
 		1551472E5590E6506F699729 /* Pods_HRY_UtilDemo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HRY_UtilDemo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FDA99BD44DD3FF59D1DB775 /* Pods-HRY-UtilDemo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRY-UtilDemo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HRY-UtilDemo_Tests/Pods-HRY-UtilDemo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		244BBA12A1B27A76B6A3D4BF /* Pods_HRY_UtilDemo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HRY_UtilDemo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4525E5092088EED600145FF2 /* NSString+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extended.h"; sourceTree = "<group>"; };
-		4525E50A2088EED600145FF2 /* NSString+StringSizeWithFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringSizeWithFont.h"; sourceTree = "<group>"; };
-		4525E50B2088EED600145FF2 /* NSString+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extended.m"; sourceTree = "<group>"; };
-		4525E50C2088EED600145FF2 /* NSString+StringSizeWithFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringSizeWithFont.m"; sourceTree = "<group>"; };
+		4525E5122088F54D00145FF2 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		4525E5132088F54D00145FF2 /* NSString+Extended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extended.h"; sourceTree = "<group>"; };
+		4525E5142088F54D00145FF2 /* NSString+StringSizeWithFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringSizeWithFont.m"; sourceTree = "<group>"; };
+		4525E5152088F54D00145FF2 /* NSString+StringSizeWithFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringSizeWithFont.h"; sourceTree = "<group>"; };
+		4525E5162088F54D00145FF2 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		4525E5172088F54D00145FF2 /* NSString+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extended.m"; sourceTree = "<group>"; };
 		4BD5E05CD970987645A3A801 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HRY-UtilDemo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HRY-UtilDemo_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -101,22 +105,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4525E5022088EDE100145FF2 /* Classes */ = {
+		4525E5112088F54D00145FF2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4525E5092088EED600145FF2 /* NSString+Extended.h */,
-				4525E50B2088EED600145FF2 /* NSString+Extended.m */,
-				4525E50A2088EED600145FF2 /* NSString+StringSizeWithFont.h */,
-				4525E50C2088EED600145FF2 /* NSString+StringSizeWithFont.m */,
+				4525E5122088F54D00145FF2 /* .gitkeep */,
+				4525E5132088F54D00145FF2 /* NSString+Extended.h */,
+				4525E5142088F54D00145FF2 /* NSString+StringSizeWithFont.m */,
+				4525E5152088F54D00145FF2 /* NSString+StringSizeWithFont.h */,
+				4525E5162088F54D00145FF2 /* ReplaceMe.m */,
+				4525E5172088F54D00145FF2 /* NSString+Extended.m */,
 			);
 			name = Classes;
-			path = "HRY-UtilDemo/Classes";
+			path = "../HRY-UtilDemo/Classes";
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				4525E5022088EDE100145FF2 /* Classes */,
+				4525E5112088F54D00145FF2 /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for HRY-UtilDemo */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -303,6 +309,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				4525E5182088F54D00145FF2 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -434,10 +441,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4525E51B2088F54D00145FF2 /* NSString+Extended.m in Sources */,
+				4525E5192088F54D00145FF2 /* NSString+StringSizeWithFont.m in Sources */,
 				6003F59E195388D20070C39A /* HRYAppDelegate.m in Sources */,
-				4525E50E2088EED600145FF2 /* NSString+StringSizeWithFont.m in Sources */,
+				4525E51A2088F54D00145FF2 /* ReplaceMe.m in Sources */,
 				6003F5A7195388D20070C39A /* HRYViewController.m in Sources */,
-				4525E50D2088EED600145FF2 /* NSString+Extended.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
