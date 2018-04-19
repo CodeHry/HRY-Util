@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HRY-UtilDemo/Classes/**/*'
+  s.source_files = 'HRY-Util'
   
   # s.resource_bundles = {
   #   'HRY-UtilDemo' => ['HRY-UtilDemo/Assets/*.png']
