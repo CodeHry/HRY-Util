@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'HRY-UtilDemo_Example' do
+  pod 'HRY-UtilDemo', :path => '../'
+
+  target 'HRY-UtilDemo_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end

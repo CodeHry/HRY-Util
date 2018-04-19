@@ -1,0 +1,6 @@
+framework module HRY_UtilDemo {
+  umbrella header "HRY-UtilDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

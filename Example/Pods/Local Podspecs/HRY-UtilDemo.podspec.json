@@ -1,0 +1,22 @@
+{
+  "name": "HRY-UtilDemo",
+  "version": "0.1.0",
+  "summary": "A short description of HRY-UtilDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/512715681@qq.com/HRY-UtilDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "512715681@qq.com": "ruyi.huang@xianjiavip.com"
+  },
+  "source": {
+    "git": "https://github.com/512715681@qq.com/HRY-UtilDemo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HRY-UtilDemo/Classes/**/*"
+}
