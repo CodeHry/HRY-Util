@@ -1,4 +1,4 @@
-# HRY-UtilDemo
+# HRY-Util
 
 [![CI Status](http://img.shields.io/travis/512715681@qq.com/HRY-UtilDemo.svg?style=flat)](https://travis-ci.org/512715681@qq.com/HRY-UtilDemo)
 [![Version](https://img.shields.io/cocoapods/v/HRY-UtilDemo.svg?style=flat)](http://cocoapods.org/pods/HRY-UtilDemo)
@@ -17,7 +17,7 @@ HRY-Util is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'HRY-UtilDemo'
+pod 'HRY-Util'
 ```
 
 ## Author
