@@ -74,7 +74,7 @@
 		8424A911E33E6736F35B443A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		957414627EA6B5114AA07E14 /* Pods-HRY-UtilDemo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRY-UtilDemo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HRY-UtilDemo_Example/Pods-HRY-UtilDemo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A0E3D67450D1B6A3164A692E /* HRY-UtilDemo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "HRY-UtilDemo.podspec"; path = "../HRY-UtilDemo.podspec"; sourceTree = "<group>"; };
+		A0E3D67450D1B6A3164A692E /* HRY-Util.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "HRY-Util.podspec"; path = "../HRY-Util.podspec"; sourceTree = "<group>"; };
 		A1B52272638F5545C5226A3F /* Pods-HRY-UtilDemo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRY-UtilDemo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HRY-UtilDemo_Tests/Pods-HRY-UtilDemo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C28B2C88C86025603D9159C5 /* Pods-HRY-UtilDemo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HRY-UtilDemo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HRY-UtilDemo_Example/Pods-HRY-UtilDemo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -203,7 +203,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				A0E3D67450D1B6A3164A692E /* HRY-UtilDemo.podspec */,
+				A0E3D67450D1B6A3164A692E /* HRY-Util.podspec */,
 				8424A911E33E6736F35B443A /* README.md */,
 				4BD5E05CD970987645A3A801 /* LICENSE */,
 			);
